@@ -49,7 +49,7 @@ function loadCart() {
     cartCount = currCart.length;
     document.getElementById("cart-count").innerHTML = cartCount;
     currCart.forEach((id) => {
-      document.getElementById(id).shadowRoot.querySelector('button').innerHTML = "Remove from cart";
+      document.getElementById(id).shadowRoot.querySelector('button').innerHTML = "Remove from Cart";
     });
   }
 }
