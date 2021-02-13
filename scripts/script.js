@@ -27,6 +27,7 @@ function createProduct(value) {
 
 function clickBtn(event) {
   if (event.target.innerHTML == "Add to Cart") {
+    alert('Added to Cart!')
     event.target.innerHTML = "Remove from Cart";
     cartCount = cartCount + 1;
     document.getElementById("cart-count").innerHTML = cartCount;
